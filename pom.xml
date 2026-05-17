@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.9.22.1</aspectj.version>
         <allure.version>2.29.0</allure.version>
-        <log4j.version>2.26.0</log4j.version>
+        <log4j.version>2.12.0</log4j.version>
     </properties>
 
     <dependencies>
@@ -47,11 +47,6 @@
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
             <version>3.26.0</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.5.8</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
