@@ -1,9 +1,8 @@
 package by.booklover.ui.page.personal.profile;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-public class LoginComponent {
+public class LoginComponent extends BasePageComponent {
     private final String LOGIN_URL = "https://booklover.by/personal/profile/?login=yes";
     private final String TITLE_REGISTRATION_CONTROL = "//a[@class='registration__control registration__control--current']";
     private final String INPUT_PHONE_NUMBER = "//input[@id='authorization-phone-number']";
@@ -13,10 +12,8 @@ public class LoginComponent {
     private final String TEXT_ALERT = "//div[@class='alert alert-danger']";
     private final String TEXT_ERROR = "//span[@class='js-error']";
 
-    private WebDriver driver;
-
-    public LoginComponent(WebDriver driver) {
-        this.driver = driver;
+    public LoginComponent() {
+        super();
     }
 
     public void clickButtonSubmit() {
