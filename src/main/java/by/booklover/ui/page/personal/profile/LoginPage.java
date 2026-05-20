@@ -2,7 +2,7 @@ package by.booklover.ui.page.personal.profile;
 
 import org.openqa.selenium.By;
 
-public class LoginComponent extends BasePageComponent {
+public class LoginPage extends BasePage {
     private final String LOGIN_URL = "https://booklover.by/personal/profile/?login=yes";
     private final String TITLE_REGISTRATION_CONTROL = "//a[@class='registration__control registration__control--current']";
     private final String INPUT_PHONE_NUMBER = "//input[@id='authorization-phone-number']";
@@ -12,7 +12,7 @@ public class LoginComponent extends BasePageComponent {
     private final String TEXT_ALERT = "//div[@class='alert alert-danger']";
     private final String TEXT_ERROR = "//span[@class='js-error']";
 
-    public LoginComponent() {
+    public LoginPage() {
         super();
     }
 

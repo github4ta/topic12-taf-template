@@ -3,7 +3,7 @@ package by.booklover.ui.page.personal.profile;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class HomePage extends BasePageComponent {
+public class HomePage extends BasePage {
 
     public HomePage() {
         super();

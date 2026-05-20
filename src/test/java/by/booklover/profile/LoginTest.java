@@ -1,7 +1,7 @@
 package by.booklover.profile;
 
 import by.booklover.basetest.BaseTest;
-import by.booklover.ui.page.personal.profile.LoginComponent;
+import by.booklover.ui.page.personal.profile.LoginPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -15,8 +15,8 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void testLoginPageIsOpened() {
-        LoginComponent loginComponent = new LoginComponent();
-        String actual = loginComponent.getTextRegistrationControl();
+        LoginPage loginPage = new LoginPage();
+        String actual = loginPage.getTextRegistrationControl();
 
         Assertions.assertEquals("Авторизация", actual);
         System.out.println(actual);
